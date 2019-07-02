@@ -1,0 +1,406 @@
+/* Png-traning*/
+h1,h2{
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.row,.col-lg-6{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+
+/* PNG Banner */
+.gym-png-1 {
+    background-image: url('../thumbnail/gymm1.jpg');
+}
+.skate-png-1{
+    background-image: url("../thumbnail/skate4.png");
+}
+.walk-png-1{
+    background-image: url("../thumbnail/walk5.jpg");
+}
+.cyc-png-1{
+    background-image: url("../thumbnail/cyc4.jpg");
+}
+.chess-png-1{
+    background-image: url("../thumbnail/chess11.jpg");
+}
+.gym-png-2 {
+    background-image: url('../thumbnail/gymm3.jpg');
+}
+
+.gym-png-3 {
+    background-image: url('../thumbnail/gymm5.jpg');
+}
+
+.gym-png-4 {
+    background-color: #1b3453;
+}
+
+/* png-boxing*/
+.boxing-png-1{
+    background-image: url('../thumbnail/boxing1.jpg');
+}
+.boxing-png-4{
+    background-color: black ;
+}
+.boxing-png-3{
+    background-image: url('../thumbnail/boxing5.jpg');
+}
+
+/* png-kickfit*/
+.kickfit-png-1{
+    background-image: url('../thumbnail/kickfit1.jpg');
+}
+.kickfit-png-2{
+    background-image: url('../thumbnail/kickfit3.jpg');
+}
+.kickfit-png-4{
+    background-color: white ;
+}
+.kickfit-png-3{
+    background-image: url('../thumbnail/kickfit5.jpg');
+}
+
+.style-gym-png {
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    background-size:cover;
+}
+
+.gym-png-text {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    color: white;
+}
+
+.gym-text-banner {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 40px;
+}
+.kickfit-text-banner{
+    font-family: Roboto;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 25px;
+}
+.gym-png-text-contain{
+    margin-top: 12%;
+    margin-left: 10%;
+}
+
+.gym-text-contain {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+    padding-right: 10%;
+}
+
+.divered {
+    height: 3px;
+    background: #db2128;
+    border: none;
+    margin: 25px 0 40px;
+    width: 110px;
+    display: block;
+    clear: both;
+}
+.gym-text-tall{
+    color: white ;
+    font-family: Roboto;
+    font-size: 23px;
+    padding-right: 10%;
+    padding-bottom: 25px;
+}
+
+ul .gym {
+    list-style: none;
+}
+
+.gym-png-text button,.lol-png-text button,.lol-png-3 button {
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.gym-text-tall ul li::before {
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 40px
+}
+
+/* Png-traning*/
+.style-hero-image {
+    background-color: #cccccc;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 300px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text-name {
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.hero-text-class {
+    font-style: italic;
+    background-color: #d92329;
+    padding: 2px;
+    margin-right: 7px;
+}
+
+/*hover trainer png*/
+.trainner .box {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.trainner .box:before {
+    content: "";
+    height: 350px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.trainner .box:hover:before {
+    opacity: 1;
+}
+
+.trainner .box img {
+    height: 350px;
+    width: 100%;
+}
+
+.trainner .box .box-content {
+    width: 100%;
+    padding: 0 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    opacity: 0;
+    transform: scale(0.5) rotateX(360deg);
+    transition: all 0.3s ease 0s;
+}
+
+.trainner .box:hover .box-content {
+    opacity: 1;
+    transform: scale(1) rotateX(0deg);
+}
+
+.trainner .box .title {
+    font-size: 22px;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: italic;
+}
+
+.trainner .box .post {
+    display: block;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+    color: #d92329;
+    margin-bottom: 15px;
+}
+
+.trainner .box .icon {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    opacity: 0;
+    transform: scale(0.5) rotateX(360deg);
+    transition: all 0.3s ease 0.3s;
+}
+
+.trainner .box:hover .icon {
+    opacity: 1;
+    transform: scale(1) rotateX(0deg);
+}
+
+.trainner .box .icon li {
+    display: inline-block;
+}
+
+.trainner .box .icon li a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 22px;
+    color: #000;
+    margin-right: 10px;
+    transition: all 0.3s ease 0.3s;
+}
+
+.trainner .box .icon li a:hover {
+    background: #0afbc7;
+    color: #fff;
+    transition-delay: 0s;
+}
+
+.trainner
+
+@media only screen and (max-width: 990px) {
+    .box {
+        margin-bottom: 30px;
+    }
+}
+
+/*hover trainer png*/
+/* Png-class*/
+
+.class-image-1 {
+    background-image: url("https://demo.kaliumtheme.com/fitness/wp-content/uploads/2016/06/890618f0d8f50a42a7283d567dc348e3-655x545.jpg");
+}
+
+.class-image-2 {
+    background-image: url("https://www.strongfitnessmag.com/wp-content/uploads/2013/10/Swing2.jpg");
+}
+
+.class-image-3 {
+    background-image: url("https://demo.kaliumtheme.com/fitness/wp-content/uploads/2016/06/2b1a78e62da21a641217d924cdfdefd3-2-655x545.jpg");
+}
+
+/* Png-class*/
+.style-class-image {
+    background-color: #cccccc;
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 360px;
+    padding: 10px;
+}
+
+[class*="class-image-"] {
+    filter: grayscale(40%);
+    transition: all 0.7s ease;
+}
+
+[class*="class-image-"]:hover {
+    filter: brightness(130%);
+}
+
+.class-text-name {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    text-decoration: underline #d92329;
+    margin-top: 85%;
+    font-size: 28px;
+}
+.LOL-page .lol-png-2 {
+    background-image: url("http://techfitpro.com.vn/wp-content/uploads/2018/05/34466_top-gym-background-images-for-pinterest_1920x1080_h.jpg");
+}
+
+.LOL-page .lol-png-1 {
+    background-image: url("../thumbnail/LOL-10.jpg");
+    background-repeat: no-repeat, repeat;
+height: 500px;
+    padding-top: 200px;
+}
+
+.LOL-page .lol-png-text{
+    margin-left: 32%;
+    color: white;
+}
+.LOL-page .lol-rise-1,.LOL-page .lol-rise-2 {
+
+    height: 450px;
+    color: white;
+    text-align: center;
+    padding: 200px 50px;
+}
+.LOL-page .lol-rise-1{
+    background-image: url("../thumbnail/LOL-11.png");
+    background-repeat: no-repeat, repeat;
+
+}
+.LOL-page .lol-rise-2 {
+    background-image: url("../thumbnail/LOL-11.png");
+    background-repeat: no-repeat, repeat;
+}
+.LOL-page .lol-png-3{
+    background-image: url("../thumbnail/LOL-12.jpg");
+    height: 500px;
+    color: white;
+    padding-top: 200px;
+}
+.LOL-page .text-warning{
+    font-size: 50px;
+}
+.style-video-blogs{
+    width: 100%;
+
+}
+.panel-title{
+    display: block;
+    padding: 9px 0px 9px 24px;
+    font-size: 20px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    background-color: rgba(214, 224, 226, 0.2);
+    color: #fff;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.accordion-toggle{
+    text-decoration: none;
+    color: #000000;
+}
+.banner-blog{
+    background-image: url("../thumbnail/bannerblog1.jpg");
+    background-size: cover;
+    height: 700px;
+}
+.text-blog{
+    padding-top: 320px;
+    font-weight: bold;
+}
+.panel-heading .fa-chevron-down{
+    float: right;
+    margin-right: 24px;
+    margin-top: 7px;}
+@media (max-width: 786px){
+    .LOL-page .lol-png-text{
+        margin-left: 0%;
+    }
+}

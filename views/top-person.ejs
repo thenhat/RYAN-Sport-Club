@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <% include common/head %>
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/activities.css" rel="stylesheet">
+
+</head>
+<body>
+<% include common/header %>
+<div class="banner-activities">
+    <h1 class="text-banner-common text-center text-banner">TOP SPORTS PERSON</h1>
+</div>
+<div class="content-activities mt-5">
+            <div class="top-person">
+                <div class="container card-module">
+                    <div class="row">
+                        <% listPerson.forEach(function(topPerson){ %>
+                        <div class="col-sm-6 mb-5">
+                            <div class="card">
+                                <img class="card-img-top"
+                                     src="<%= topPerson.image %>"
+                                     alt="Card image">
+                                <div class="card-body">
+                                    <h3 class="card-title text-danger">
+                                        <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+                                        <%= topPerson.name %></h3>
+                                    <p class="card-text">
+                                        <a href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                        <%= topPerson.text1 %>
+                                        <br><br>
+                                        <a href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                        <%= topPerson.text2 %>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                            <% }) %>
+
+                    </div>
+                </div>
+    </div>
+</div>
+<% include common/footer %>
+<script src="JS/scroll-top.js"></script>
+
+</body>
+</html>

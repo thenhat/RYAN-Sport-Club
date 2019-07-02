@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <% include common/head %>
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/SIGNUP.css" rel="stylesheet">
+</head>
+<body>
+<% include common/header %><br><br>
+<DIV class="Register-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 login-sec">
+                <h2 class="text-center">Sign Up Now</h2>
+                <form class="formRegister" action="/SIGNUP" method="post" name="signup-form">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="text-uppercase">Username</label>
+                        <input type="text" class="form-control" name="fullname" placeholder="Enter Your Name">
+                        <span></span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1" class="text-uppercase">Phone</label>
+                        <input type="text" class="form-control" name="phone" placeholder="Enter Your Phone">
+                        <span></span>
+                    </div>
+                    <div>
+                    <label for="exampleInput" class="text-uppercase">Studios</label>
+                    <select id="studios" name="studios" class="p-1">
+                        <option value="hanoi">HA NOI</option>
+                        <option value="tphcm">HO CHI MINH</option>
+                        <option value="danang">DA NANG</option>
+                        <option value="bienhoa">BIEN HOA</option>
+                    </select></div>
+                    <div class="form-check">
+                        <button type="submit" name="btnSubmit" class="btn btn-login float-right">SIGN UP</button>
+                    </div>
+
+                </form>
+                <div id="signup-validate"></div>
+
+                <div class="copy-text">Created with <i class="fa fa-heart"></i> by <a href="/">RyanSportClub</a>
+                </div>
+            </div>
+            <div class="col-sm-8 banner-sec">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="thumbnail/signup1.jpg"
+                                 alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="banner-text text-banner-common">
+                                    <h2>This is RYAN</h2>
+                                    <p>RYAN Sports Club, an effort has been made to provide a world class facilities and
+                                        infrastructure for the promotion of sports and health.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid"
+                                 src="thumbnail/signup2.jpg"
+                                 alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="banner-text text-banner-common">
+                                    <h2>Be all you can be.</h2>
+                                    <p>Every struggle in your life has shaped you into the person you are today. Be thankful for the hard times, they can only make you stronger.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid"
+                                 src="thumbnail/signup3.jpg"
+                                 alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="banner-text text-banner-common">
+                                    <h2> Just do it.</h2>
+                                    <p>Enjoy the little things in life for one day you’ll look back and realize they were the big things.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </DIV>
+</DIV>
+<script src="JS/scroll-top.js"></script>
+<% include common/footer%>
+
+
+</body>
+</html>

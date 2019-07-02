@@ -1,0 +1,429 @@
+body{
+    font-family: Roboto;
+    font-weight: normal;
+}
+.msg-error {
+    color: red;
+}
+
+.msg-success {
+    color: #3d9e66;
+}
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+.banner {
+    background-image: url('http://www.hd-freewallpapers.com/latest-wallpapers/abstract-website-backgrounds.jpg');
+    text-align: center;
+    color: #fff;
+
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.banner-text {
+    padding: 200px 0 150px 0;
+}
+
+.banner-heading {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.banner-sub-heading {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.btn-banner {
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.text-intro {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.title {
+    font-family: cursive;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-indicators {
+    bottom: 110px;
+}
+
+.carousel-text {
+    position: absolute;
+    top: 200px;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    margin-right: 50%;
+}
+
+.carousel-button .btn {
+    padding: 12px 42px;
+    font-size: 25px;
+    border-radius: 30px;
+}
+
+.carousel-item {
+    margin-top: 65px;
+    height: 110vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.centered_text .btn {
+    padding: 12px 42px;
+    margin: 0 auto;
+    font-size: 25px;
+    border-radius: 30px;
+    display: block;
+}
+
+.top_boxes {
+    margin-top: -110px;
+}
+
+.top_boxes .top_box {
+    padding-left: 0;
+    overflow: hidden;
+}
+
+.top_boxes .top_box img {
+    height: 220px;
+    width: 100%;
+    position: relative;
+    transform: rotate(0deg) scale(1);
+    transition: all 400ms ease-out 0s;
+}
+
+.top_boxes .top_box:hover img {
+    transform: rotate(6deg) scale(1.25);
+    transition: all 400ms ease-out 0s;
+}
+
+.top_boxes .top_box .top_box_text {
+    position: absolute;
+    top: 37%;
+    z-index: 1;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-shadow: 2px 2px #000000;
+}
+
+.top_boxes .top_box .top_box_text h3 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 0.7;
+}
+
+.top_boxes .top_box .top_box_text span {
+    color: #d92329;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.regular-module {
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.sport-list-cross .container-list {
+    position: relative;
+    display: inline-block;
+}
+
+.sport-list .container-list .image {
+    height: 380px;
+}
+
+.overlay {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    transition: 0.7s;
+    background: #00b1bab8;
+}
+
+.sport-list-cross .container-list:hover .overlay {
+    opacity: 1;
+}
+
+.container-list .text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.overlayCross {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: scale(0.9);
+    background: rgba(0, 0, 0, .5);
+}
+
+.overlayCross .text a {
+    color: #ffffff;
+}
+
+.regular-module .image-module img {
+    width: 100%;
+    height: 350px;
+}
+
+.sport-list {
+    width: 100%;
+}
+
+.sport-img {
+    padding: 10px;
+    line-height: 0;
+}
+
+.sport-img p {
+    line-height: 1.5;
+}
+
+.sport-img img {
+    width: 100%;
+}
+.image-module{
+    padding-left: 0;
+    padding-right: 0;
+}
+.image-module img {
+    max-width: 100%;
+}
+.content-regular{
+    padding-top: 60px;
+    padding-bottom: 0;
+}
+.booking{
+    background-color: #111727;
+}
+.various{
+    background-color: #e56d3f;
+}
+.scheduling{
+    background-color: #111727;
+}
+
+.img-studios img{
+    width: 100%;
+}
+.studios-address .city-list a{
+    color: #000000;
+    border: 2px solid #d92329;
+    padding: 7px 20px;
+}
+
+.city-list .wrap img{
+    border-radius: 130px;
+}
+
+
+.video-module {
+    position: relative;
+}
+.video-module .text{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.video-module .text h1{
+    font-weight: bold;
+    font-size: 45px;
+}
+.video-module video {
+    width: 100%;
+    padding-top: 30px;
+}
+
+
+.border-title {
+    border-bottom: 2px solid #000000;
+    line-height: 50px;
+}
+
+.container-list {
+    overflow: hidden;
+}
+
+.container-list img {
+    transform: rotate(0deg) scale(1);
+    transition: all 400ms ease-out 0s;
+}
+
+.container-list:hover img {
+    transform: rotate(0deg) scale(1.25);
+    transition: all 400ms ease-out 0s;
+}
+
+
+.top-person .card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    flex-direction: row;
+}
+
+.top-person .card .card-img-top {
+    width: 50%;
+    height: 300px;
+}
+
+.top-person .button-card {
+    margin-left: 0%;
+
+}
+
+.top-person .button-card button {
+    width: 40%;
+    margin-left: 5%;
+}
+.studios{
+    background-image: url("../thumbnail/maps1.png");
+}
+.studios .adress-text a,.studios .adress-text h3{
+    color: #ffffff;
+    text-decoration: none;
+}
+.myframegmap {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+.gallery-indoor img, .gallery-outdoor img, .gallery-recreation img{
+    width: 100%;
+}
+.scroll-top-wrapper {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    z-index: 99999999;
+    background-color: #777777;
+    color: #eeeeee;
+    width: 50px;
+    height: 48px;
+    line-height: 48px;
+    right: 30px;
+    bottom: 30px;
+    padding-top: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+    background-color: #888888;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+    opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+    line-height: inherit;
+}
+#hotLine {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    z-index: 99;
+    color: #ff3333;
+    font-size: 1.25em ;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.button-top-person{
+width: 100%;
+}
+.divered{
+    height: 3px;
+    background: #db2128;
+    border: none;
+    width: 110px;
+    display: block;
+    clear: both;
+}
+@media (max-width: 786px) {
+    .carousel-text {
+        margin: 0 15%;
+    }
+
+    .top_boxes {
+        margin-top: 0px;
+    }
+
+    .banner-text {
+        padding: 150px 0 150px 0;
+    }
+
+    .banner-heading {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .banner-sub-heading {
+        font-size: 10px;
+        font-weight: 200;
+        line-height: 10px;
+        margin-bottom: 40px;
+    }
+
+    .container-list .text p {
+        display: none;
+    }
+
+    .sport-list .container-list .image {
+        height: 175px;
+        width: 100%;
+    }
+    .video-module .text {
+        left: 15%;
+    }
+    .fix-reponsive .carousel-item{
+        height: 250px;
+    }
+}

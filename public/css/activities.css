@@ -1,0 +1,23 @@
+.banner-activities{
+    background-image: url("../thumbnail/banner1.jpg");
+    background-size: cover;
+    height: 600px;
+}
+.text-banner{
+    padding-top: 270px;
+    font-weight: bold;
+
+}
+.img-activities img{
+    width: 100%;
+    height: 20rem;
+}
+.activies-card{
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    background-color: rgba(214, 224, 226, 0.2);
+    margin-bottom: 20px;
+    height: 420px;
+}
+.title-activities{
+    padding: 20px;
+}
