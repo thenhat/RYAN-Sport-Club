@@ -9,6 +9,8 @@ Main features
 
 * Fully responsive
 * Html,CSS,JS,JQuery,Bootstrap
+* NodeJS
+* Data Json
 * Touch and support for mobile devices.
 * Easily customizable via CSS
 * And many more.
